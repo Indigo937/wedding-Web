@@ -736,7 +736,7 @@ RSVP PAGE
   margin: 5rem 0;
 }
 
-.rsvp-info p {
+.rsvp-info > p {
   letter-spacing: 0.15rem;
 }
 
@@ -797,3 +797,4 @@ when&where
     margin-top: -30px;
   }
 }
+
