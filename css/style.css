@@ -371,7 +371,7 @@ HERO
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: -0.5rem;
+    margin-top: 6rem;
   }
 }
 
@@ -797,4 +797,5 @@ when&where
     margin-top: -30px;
   }
 }
+
 
