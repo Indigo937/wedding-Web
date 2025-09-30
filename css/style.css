@@ -213,7 +213,6 @@ Navbar
   text-decoration: none;
   color: #000000;
   font-size: calc((1.1 - 1) * 1.2vw + 1rem);
-  margin-left: ;
 }
 
 .nav-title {
@@ -223,7 +222,6 @@ Navbar
   letter-spacing: 0;
   line-height: 1.4em;
   text-decoration: none;
-  margin: ;
 }
 
 /* rsvp button style for different screens*/
@@ -463,6 +461,10 @@ when & where
     flex-wrap: wrap;
   }
 
+  .when,
+  .where {
+    flex: 0 0 calc(50%);
+  }
   .where {
     margin-top: 0;
   }
@@ -737,7 +739,7 @@ RSVP PAGE
 }
 
 .rsvp-info > p {
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.1rem;
 }
 
 .rsvp-info h1 {
@@ -746,7 +748,7 @@ RSVP PAGE
 
 /*
 =================
-when&where
+when&where page
 =================
 */
 
@@ -769,6 +771,29 @@ when&where
   border: none;
   height: 0.5px;
   background-color: var(--clr-primary-1);
+}
+
+.directions-btn {
+  margin-bottom: 1.5rem;
+}
+
+.map-container {
+  margin-left: 0;
+}
+
+.map-fallback {
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
+}
+
+.map-fallback a {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+.map-fallback a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
@@ -797,5 +822,3 @@ when&where
     margin-top: -30px;
   }
 }
-
-
