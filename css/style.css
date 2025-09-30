@@ -626,6 +626,9 @@ Our Photos
   transform: scale(1.06);
 }
 
+.gallery-section {
+  background: var(--clr-primary-2);
+}
 /* ✅ Responsive Breakpoints */
 @media (max-width: 1024px) {
   .our-photos {
@@ -772,6 +775,13 @@ when&where page
   height: 0.5px;
   background-color: var(--clr-primary-1);
 }
+
+/*
+.drections-container {
+  justify-content: center;
+  align-items: center;
+}
+*/
 
 .directions-btn {
   margin-bottom: 1.5rem;
