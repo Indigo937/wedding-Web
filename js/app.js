@@ -1,4 +1,30 @@
 /*
+===============
+Hero
+===============
+*/
+/*
+function fitImageToSection() {
+  const section = document.querySelector(".hero");
+  const img = new Image();
+  img.src = "images/IMG_9254.jpg";
+
+  img.onload = function () {
+    const sectionRatio = section.offsetWidth / section.offsetHeight;
+    const imgRatio = img.width / img.height;
+
+    if (imgRatio > sectionRatio) {
+      section.style.backgroundSize = "auto 100%";
+    } else {
+      section.style.backgroundSize = "100% auto";
+    }
+  };
+}
+
+window.addEventListener("load", fitImageToSection);
+window.addEventListener("resize", fitImageToSection);
+*/
+/*
 ==========================
 our story
 ==========================
